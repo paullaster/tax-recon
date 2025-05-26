@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "noEmit": true, // Optional - see note below
+        "target": "esnext",
+        "module": "nodenext",
+        "rewriteRelativeImportExtensions": true,
+        "erasableSyntaxOnly": true,
+        "verbatimModuleSyntax": true,
+        "allowImportingTsExtensions": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strict": true,
+        "strictPropertyInitialization": true,
+        "resolveJsonModule": true
+    }
+}

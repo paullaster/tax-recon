@@ -1,0 +1,1 @@
+export default (input: any) => Object.prototype.toString.call(input).slice(8, -1);

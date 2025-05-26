@@ -1,0 +1,28 @@
+{
+  "name": "tax-recon",
+  "version": "1.0.0",
+  "description": "kra itax transmission",
+  "keywords": ["itax", "script", "javascript"],
+  "homepage": "https://github.com/paullaster/tax-recon#readme",
+  "bugs": {
+    "url": "https://github.com/paullaster/tax-recon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paullaster/tax-recon.git"
+  },
+  "license": "BSD-2-Clause",
+  "author": "Paullaster Okoth",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "NODE_ENV=development node  --watch --env-file=./.env.development.local --experimental-transform-types ./server.ts ",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2"
+  }
+}
