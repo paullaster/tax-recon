@@ -1,13 +1,18 @@
 import { AppError } from "../../domain/entities/error.ts";
-import type { DatasetProvider } from "../../domain/repositories/providers.ts";
+import type { DatasetProvider, IReconcilliationProvider } from "../../domain/repositories/providers.ts";
 import type { IReconcilliationService } from "../../domain/repositories/services.ts";
+import type { ItaxConfig } from "../../infrastructure/config/itax.ts";
 import type { TaxItemHeader, TaxItemLines } from "../../types/types.ts";
 import safeTypeChecker from "../../utils/safe-type-checker.ts";
 
 export class ReconcilliationService implements IReconcilliationService {
     private dataProvider: DatasetProvider;
-    constructor(dataProvider: DatasetProvider) {
-        this.dataProvider = dataProvider
+    private reconcilliationProvider: IReconcilliationProvider;
+    private config: ItaxConfig;
+    constructor(dataProvider: DatasetProvider, reconcilliationProvider: IReconcilliationProvider, config: ItaxConfig) {
+        this.dataProvider = dataProvider;
+        this.reconcilliationProvider = reconcilliationProvider;
+        this.config = config;
     }
     async transmit(): Promise<object> {
         try {
@@ -23,6 +28,8 @@ export class ReconcilliationService implements IReconcilliationService {
                     if ('valid' in lineValidation && !lineValidation.valid) throw new AppError(lineValidation?.message ?? `Invalid tax item line ${index + 1}`);
                 });
                 console.log(ch);
+                const res = await this.reconcilliationProvider.transmitTaxItem(ch, this.config);
+                console.log('Request response: ', res);
             }
             return { success: true, message: 'Transmitted successfully!' };
         } catch (error) {

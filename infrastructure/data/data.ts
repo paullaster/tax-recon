@@ -1,6 +1,5 @@
 import type { DatasetProvider } from "../../domain/repositories/providers.ts";
 import type { TaxItemHeader } from "../../types/types.ts";
-import { DataCleaningService } from "./tax-data-cleanup.ts";
 
 export class DatasetsProvider implements DatasetProvider {
     private dataset: TaxItemHeader[]
@@ -14,11 +13,5 @@ export class DatasetsProvider implements DatasetProvider {
             currentItemNumber++;
         }
     }
-}
 
-// const taxData = new DataCleaningService();
-// await taxData.getDataFromPath('credit-memos-dataset.json');
-// const dataProvider = new DatasetsProvider(await taxData.prepareData() as TaxItemHeader[])
-// for (const item of dataProvider.getDataset()) {
-//     console.log(item);
-// }
+}

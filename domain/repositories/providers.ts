@@ -1,3 +1,4 @@
+import type { ItaxConfig } from "../../infrastructure/config/itax.ts";
 import type { TaxItemHeader } from "../../types/types.ts";
 
 export interface DataService {
@@ -7,4 +8,8 @@ export interface DataService {
 
 export interface DatasetProvider {
     getDataset(): IterableIterator<TaxItemHeader>;
+}
+
+export interface IReconcilliationProvider {
+    transmitTaxItem(taxItem: TaxItemHeader, itaxConfig: ItaxConfig): Promise<object | undefined>
 }
