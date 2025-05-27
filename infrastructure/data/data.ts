@@ -1,3 +1,4 @@
+import { AppError } from "../../domain/entities/error.ts";
 import type { DatasetProvider } from "../../domain/repositories/providers.ts";
 import type { TaxItemHeader } from "../../types/types.ts";
 
@@ -13,5 +14,4 @@ export class DatasetsProvider implements DatasetProvider {
             currentItemNumber++;
         }
     }
-
 }
