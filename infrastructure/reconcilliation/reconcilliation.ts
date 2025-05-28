@@ -20,7 +20,9 @@ export class ReconcilliationProvider implements IReconcilliationProvider {
                 body: JSON.stringify(taxItem),
             });
             const response = await res.json();
-            console.log(response);
+            if (!response.ok) {
+                throw new AppError(`${response.statusCodeText}. ${response.message}`)
+            }
             return { success: true, response };
         } catch (error: any) {
             throw new AppError(`Reconcilliation Provider > TransmitTaxItem: ${error.message} `)

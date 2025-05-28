@@ -2,7 +2,11 @@
   "name": "tax-recon",
   "version": "1.0.0",
   "description": "kra itax transmission",
-  "keywords": ["itax", "script", "javascript"],
+  "keywords": [
+    "itax",
+    "script",
+    "javascript"
+  ],
   "homepage": "https://github.com/paullaster/tax-recon#readme",
   "bugs": {
     "url": "https://github.com/paullaster/tax-recon/issues"
@@ -20,7 +24,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "write-excel-file": "^2.3.2"
   },
   "devDependencies": {
     "@types/express": "^5.0.2"

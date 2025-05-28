@@ -27,13 +27,13 @@ export class ReconcilliationService implements IReconcilliationService {
                     if (!lineValidation) throw new AppError(`Tax item line ${index + 1} could not be validated`);
                     if ('valid' in lineValidation && !lineValidation.valid) throw new AppError(lineValidation?.message ?? `Invalid tax item line ${index + 1}`);
                 });
-                console.log(ch);
+                // console.log(ch);
                 const res = await this.reconcilliationProvider.transmitTaxItem(ch, this.config);
                 console.log('Request response: ', res);
             }
             return { success: true, message: 'Transmitted successfully!' };
-        } catch (error) {
-            return { success: false, message: 'Transmission failed.' };
+        } catch (error: any) {
+            return { success: false, message: error.message || 'Transmission failed.' };
         }
     }
     validateTaxItemHeader(header: TaxItemHeader): { valid: boolean; message?: string } | undefined {

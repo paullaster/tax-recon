@@ -15,7 +15,7 @@ export class ReconcilliationController {
             }
             const transmitted = await this.dataService.transmit();
             if (!transmitted) return res.status(500).json({ message: 'Error occurred!' });
-            if ('success' in transmitted && !transmitted.success) return res.status(400).json({ message: 'Not transmitted!' });
+            if ('success' in transmitted && !transmitted.success) return res.status(400).json({ message: 'message' in transmitted ? transmitted.message : 'Not transmitted!' });
             return res.status(200).json({
                 message: 'Transmission was successful',
             });

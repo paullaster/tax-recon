@@ -1,5 +1,5 @@
 export const itaxConfig = {
-    integrationUrl: '',
+    integrationUrl: process.env.ITAX_ITEGRATION_URL!,
 };
 
 export type ItaxConfig = typeof itaxConfig
