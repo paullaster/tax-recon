@@ -1,0 +1,1018 @@
+tax item:  {
+  CompanyName: 'Platinum Cre dit Limited',
+  ClientPINnum: 'P051151872T',
+  HeadQuarters: 'NAIROBI',
+  Address: 'P.O BOX 73329 Post Code: International Life Ho use',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:00:27',
+  TraderSystemInvNum: 'PSCRN/25/1190',
+  RelatedInvoiceNum: '0110600190000136276',
+  lines: [
+    {
+      NamePLU: 'Replace rear RHS tyre',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2401.2,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    },
+    {
+      NamePLU: 'Two tyre repair puncture and noz',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 2,
+      Price: 700,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+res Response {
+  status: 500,
+  statusText: 'Internal Server Error',
+  headers: Headers {
+    server: 'nginx/1.18.0 (Ubuntu)',
+    'content-type': 'application/json',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'cache-control': 'no-cache, private',
+    date: 'Tue, 03 Jun 2025 09:04:52 GMT',
+    'x-ratelimit-limit': '60',
+    'x-ratelimit-remaining': '59',
+    'access-control-allow-origin': '*'
+  },
+  body: ReadableStream { locked: false, state: 'readable', supportsBYOB: true },
+  bodyUsed: false,
+  ok: false,
+  redirected: false,
+  type: 'basic',
+  url: 'http://209.97.184.149:9080/api/v1/ZFP/OpenCreditNoteWithFreeCustomerData'
+}
+response:  { message: 'Fiscal Receipt is already Open' }
+Request response:  {
+  success: true,
+  response: { message: 'Fiscal Receipt is already Open' }
+}
+tax item:  {
+  CompanyName: 'Platinum Cre dit Limited',
+  ClientPINnum: 'P051151872T',
+  HeadQuarters: 'NAIROBI',
+  Address: 'P.O BOX 73329 Post Code: International Life Ho use',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:04:40',
+  TraderSystemInvNum: 'PSCRN/25/1191',
+  RelatedInvoiceNum: '0110600190000136278',
+  lines: [
+    {
+      NamePLU: 'Replace rear RHS tyre',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2401.2,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    },
+    {
+      NamePLU: 'Two tyre repair puncture and noz',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 2,
+      Price: 700,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+res Response {
+  status: 500,
+  statusText: 'Internal Server Error',
+  headers: Headers {
+    server: 'nginx/1.18.0 (Ubuntu)',
+    'content-type': 'application/json',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'cache-control': 'no-cache, private',
+    date: 'Tue, 03 Jun 2025 09:04:55 GMT',
+    'x-ratelimit-limit': '60',
+    'x-ratelimit-remaining': '58',
+    'access-control-allow-origin': '*'
+  },
+  body: ReadableStream { locked: false, state: 'readable', supportsBYOB: true },
+  bodyUsed: false,
+  ok: false,
+  redirected: false,
+  type: 'basic',
+  url: 'http://209.97.184.149:9080/api/v1/ZFP/OpenCreditNoteWithFreeCustomerData'
+}
+response:  { message: 'FP: OK; Command: ?.\nFP: 06 3A 30 3E 33 34 0A' }
+Request response:  {
+  success: true,
+  response: { message: 'FP: OK; Command: ?.\nFP: 06 3A 30 3E 33 34 0A' }
+}
+tax item:  {
+  CompanyName: 'Momentum Cre dit Limited',
+  ClientPINnum: 'P051444407V',
+  HeadQuarters: 'NAIROBI',
+  Address: 'International Life Hous e, 9th',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:04:42',
+  TraderSystemInvNum: 'PSCRN/25/1192',
+  RelatedInvoiceNum: '0110600190000136279',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+res Response {
+  status: 500,
+  statusText: 'Internal Server Error',
+  headers: Headers {
+    server: 'nginx/1.18.0 (Ubuntu)',
+    'content-type': 'application/json',
+    'transfer-encoding': 'chunked',
+    connection: 'keep-alive',
+    'cache-control': 'no-cache, private',
+    date: 'Tue, 03 Jun 2025 09:04:56 GMT',
+    'x-ratelimit-limit': '60',
+    'x-ratelimit-remaining': '57',
+    'access-control-allow-origin': '*'
+  },
+  body: ReadableStream { locked: false, state: 'readable', supportsBYOB: true },
+  bodyUsed: false,
+  ok: false,
+  redirected: false,
+  type: 'basic',
+  url: 'http://209.97.184.149:9080/api/v1/ZFP/OpenCreditNoteWithFreeCustomerData'
+}
+response:  { message: 'Fiscal Receipt is already Open' }
+Request response:  {
+  success: true,
+  response: { message: 'Fiscal Receipt is already Open' }
+}
+tax item:  {
+  CompanyName: 'Platinum Cre dit Limited',
+  ClientPINnum: 'P051151872T',
+  HeadQuarters: 'NAIROBI',
+  Address: 'P.O BOX 73329 Post Code: International Life Ho use',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:04:45',
+  TraderSystemInvNum: 'PSCRN/25/1193',
+  RelatedInvoiceNum: '0110600190000136280',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154457',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154457                              ',
+  date: {
+    date: '2025-06-03 12:36:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154457',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154457                              ',
+    date: {
+      date: '2025-06-03 12:36:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Momentum Cre dit Limited',
+  ClientPINnum: 'P051444407V',
+  HeadQuarters: 'NAIROBI',
+  Address: 'International Life Hous e, 9th',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:04:48',
+  TraderSystemInvNum: 'PSCRN/25/1194',
+  RelatedInvoiceNum: '0110600190000136281',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154458',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154458                              ',
+  date: {
+    date: '2025-06-03 12:36:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154458',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154458                              ',
+    date: {
+      date: '2025-06-03 12:36:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Momentum Cre dit Limited',
+  ClientPINnum: 'P051444407V',
+  HeadQuarters: 'NAIROBI',
+  Address: 'International Life Hous e, 9th',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:04:51',
+  TraderSystemInvNum: 'PSCRN/25/1195',
+  RelatedInvoiceNum: '0110600190000136282',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 4400,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154459',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154459                              ',
+  date: {
+    date: '2025-06-03 12:36:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154459',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154459                              ',
+    date: {
+      date: '2025-06-03 12:36:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Platinum Cre dit Limited',
+  ClientPINnum: 'P051151872T',
+  HeadQuarters: 'NAIROBI',
+  Address: 'P.O BOX 73329 Post Code: International Life Ho use',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:04:54',
+  TraderSystemInvNum: 'PSCRN/25/1196',
+  RelatedInvoiceNum: '0110600190000136283',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 3900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154460',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154460                              ',
+  date: {
+    date: '2025-06-03 12:36:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154460',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154460                              ',
+    date: {
+      date: '2025-06-03 12:36:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Platinum Cre dit Limited',
+  ClientPINnum: 'P051151872T',
+  HeadQuarters: 'NAIROBI',
+  Address: 'P.O BOX 73329 Post Code: International Life Ho use',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:04:56',
+  TraderSystemInvNum: 'PSCRN/25/1197',
+  RelatedInvoiceNum: '0110600190000136284',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154461',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154461                              ',
+  date: {
+    date: '2025-06-03 12:36:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154461',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154461                              ',
+    date: {
+      date: '2025-06-03 12:36:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Momentum Cre dit Limited',
+  ClientPINnum: 'P051444407V',
+  HeadQuarters: 'NAIROBI',
+  Address: 'International Life Hous e, 9th',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:04:59',
+  TraderSystemInvNum: 'PSCRN/25/1198',
+  RelatedInvoiceNum: '0110600190000136285',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154462',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154462                              ',
+  date: {
+    date: '2025-06-03 12:37:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154462',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154462                              ',
+    date: {
+      date: '2025-06-03 12:37:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Momentum Cre dit Limited',
+  ClientPINnum: 'P051444407V',
+  HeadQuarters: 'NAIROBI',
+  Address: 'International Life Hous e, 9th',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:05:02',
+  TraderSystemInvNum: 'PSCRN/25/1199',
+  RelatedInvoiceNum: '0110600190000136286',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154463',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154463                              ',
+  date: {
+    date: '2025-06-03 12:37:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154463',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154463                              ',
+    date: {
+      date: '2025-06-03 12:37:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Platinum Cre dit Limited',
+  ClientPINnum: 'P051151872T',
+  HeadQuarters: 'NAIROBI',
+  Address: 'P.O BOX 73329 Post Code: International Life Ho use',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:05:05',
+  TraderSystemInvNum: 'PSCRN/25/1200',
+  RelatedInvoiceNum: '0110600190000136287',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 3400,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154464',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154464                              ',
+  date: {
+    date: '2025-06-03 12:37:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154464',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154464                              ',
+    date: {
+      date: '2025-06-03 12:37:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Platinum Cre dit Limited',
+  ClientPINnum: 'P051151872T',
+  HeadQuarters: 'NAIROBI',
+  Address: 'P.O BOX 73329 Post Code: International Life Ho use',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:05:07',
+  TraderSystemInvNum: 'PSCRN/25/1201',
+  RelatedInvoiceNum: '0110600190000136288',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154465',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154465                              ',
+  date: {
+    date: '2025-06-03 12:37:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154465',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154465                              ',
+    date: {
+      date: '2025-06-03 12:37:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Momentum Cre dit Limited',
+  ClientPINnum: 'P051444407V',
+  HeadQuarters: 'NAIROBI',
+  Address: 'International Life Hous e, 9th',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:05:10',
+  TraderSystemInvNum: 'PSCRN/25/1202',
+  RelatedInvoiceNum: '0110600190000136289',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154466',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154466                              ',
+  date: {
+    date: '2025-06-03 12:37:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154466',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154466                              ',
+    date: {
+      date: '2025-06-03 12:37:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Momentum Cre dit Limited',
+  ClientPINnum: 'P051444407V',
+  HeadQuarters: 'NAIROBI',
+  Address: 'International Life Hous e, 9th',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:05:13',
+  TraderSystemInvNum: 'PSCRN/25/1203',
+  RelatedInvoiceNum: '0110600190000136290',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154467',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154467                              ',
+  date: {
+    date: '2025-06-03 12:37:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154467',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154467                              ',
+    date: {
+      date: '2025-06-03 12:37:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Platinum Cre dit Limited',
+  ClientPINnum: 'P051151872T',
+  HeadQuarters: 'NAIROBI',
+  Address: 'P.O BOX 73329 Post Code: International Life Ho use',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:05:16',
+  TraderSystemInvNum: 'PSCRN/25/1204',
+  RelatedInvoiceNum: '0110600190000136291',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154468',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154468                              ',
+  date: {
+    date: '2025-06-03 12:37:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154468',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154468                              ',
+    date: {
+      date: '2025-06-03 12:37:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Platinum Cre dit Limited',
+  ClientPINnum: 'P051151872T',
+  HeadQuarters: 'NAIROBI',
+  Address: 'P.O BOX 73329 Post Code: International Life Ho use',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:05:18',
+  TraderSystemInvNum: 'PSCRN/25/1205',
+  RelatedInvoiceNum: '0110600190000136292',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 3400,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154469',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154469                              ',
+  date: {
+    date: '2025-06-03 12:37:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154469',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154469                              ',
+    date: {
+      date: '2025-06-03 12:37:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Platinum Cre dit Limited',
+  ClientPINnum: 'P051151872T',
+  HeadQuarters: 'NAIROBI',
+  Address: 'P.O BOX 73329 Post Code: International Life Ho use',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:05:21',
+  TraderSystemInvNum: 'PSCRN/25/1206',
+  RelatedInvoiceNum: '0110600190000136293',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 4400,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154470',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154470                              ',
+  date: {
+    date: '2025-06-03 12:37:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154470',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154470                              ',
+    date: {
+      date: '2025-06-03 12:37:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Platinum Cre dit Limited',
+  ClientPINnum: 'P051151872T',
+  HeadQuarters: 'NAIROBI',
+  Address: 'P.O BOX 73329 Post Code: International Life Ho use',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:05:24',
+  TraderSystemInvNum: 'PSCRN/25/1207',
+  RelatedInvoiceNum: '0110600190000136294',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+response:  {
+  InvoiceNum: '0110600190000154471',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154471                              ',
+  date: {
+    date: '2025-06-03 12:37:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154471',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154471                              ',
+    date: {
+      date: '2025-06-03 12:37:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  {
+  CompanyName: 'Momentum Cre dit Limited',
+  ClientPINnum: 'P051444407V',
+  HeadQuarters: 'NAIROBI',
+  Address: 'International Life Hous e, 9th',
+  PostalCodeAndCity: 'NAIROBI',
+  ExemptionNum: '',
+  postingDate: '01/04/2025 09:05:27',
+  TraderSystemInvNum: 'PSCRN/25/1208',
+  RelatedInvoiceNum: '0110600190000136295',
+  lines: [
+    {
+      NamePLU: 'Valuation Fee',
+      MeasureUnit: '',
+      HSCode: '',
+      HSName: '',
+      DiscAddP: '',
+      Quantity: 1,
+      Price: 2900,
+      OptionVATClass: 'A',
+      VATGrRate: 16
+    }
+  ]
+}
+^CReceived shutdown signal, closing server...
+Received shutdown signal, closing server...
+Server closed gracefully.
+
+paullaster@paullaster:~/Documents/projects/others/scripts/tax-recon$ 
+
+tax item:  PSCRN/25/1190
+HTTP Error Response: {
+  status: 500,
+  statusText: 'Internal Server Error',
+  url: 'http://209.97.184.149:9080/api/v1/ZFP/OpenCreditNoteWithFreeCustomerData',
+  taxItemTraderSystemInvNum: 'PSCRN/25/1190',
+  body: '{"message":"FP: OK; Command: ?.\\nFP: 06 8F 30 3E 38 31 0A"}'
+}
+Reconcilliation Provider > TransmitTaxItem: Body is unusable: Body has already been read
+Request response:  undefined
+tax item:  PSCRN/25/1191
+HTTP Error Response: {
+  status: 500,
+  statusText: 'Internal Server Error',
+  url: 'http://209.97.184.149:9080/api/v1/ZFP/OpenCreditNoteWithFreeCustomerData',
+  taxItemTraderSystemInvNum: 'PSCRN/25/1191',
+  body: '{"message":"Fiscal Receipt is already Open"}'
+}
+Reconcilliation Provider > TransmitTaxItem: Body is unusable: Body has already been read
+Request response:  undefined
+tax item:  PSCRN/25/1192
+response:  {
+  InvoiceNum: '0110600190000154473',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154473                              ',
+  date: {
+    date: '2025-06-03 12:57:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154473',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154473                              ',
+    date: {
+      date: '2025-06-03 12:57:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  PSCRN/25/1208
+HTTP Error Response: {
+  status: 500,
+  statusText: 'Internal Server Error',
+  url: 'http://209.97.184.149:9080/api/v1/ZFP/OpenCreditNoteWithFreeCustomerData',
+  taxItemTraderSystemInvNum: 'PSCRN/25/1208',
+  body: '{"message":"FP: OK; Command: Illegal.\\nFP: 06 98 30 32 39 3A 0A"}'
+}
+Reconcilliation Provider > TransmitTaxItem: Body is unusable: Body has already been read
+Request response:  undefined
+tax item:  PSCRN/25/1209
+HTTP Error Response: {
+  status: 500,
+  statusText: 'Internal Server Error',
+  url: 'http://209.97.184.149:9080/api/v1/ZFP/OpenCreditNoteWithFreeCustomerData',
+  taxItemTraderSystemInvNum: 'PSCRN/25/1209',
+  body: '{"message":"FP: OK; Command: Illegal.\\nFP: 06 9A 30 32 39 38 0A"}'
+}
+Reconcilliation Provider > TransmitTaxItem: Body is unusable: Body has already been read
+Request response:  undefined
+tax item:  PSCRN/25/1210
+response:  {
+  InvoiceNum: '0110600190000154474',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154474                              ',
+  date: {
+    date: '2025-06-03 12:57:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154474',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154474                              ',
+    date: {
+      date: '2025-06-03 12:57:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+tax item:  PSCRN/25/1211
+HTTP Error Response: {
+  status: 500,
+  statusText: 'Internal Server Error',
+  url: 'http://209.97.184.149:9080/api/v1/ZFP/OpenCreditNoteWithFreeCustomerData',
+  taxItemTraderSystemInvNum: 'PSCRN/25/1211',
+  body: '{"message":"FP: OK; Command: Illegal.\\nFP: 06 20 30 32 32 32 0A"}'
+}
+Reconcilliation Provider > TransmitTaxItem: Body is unusable: Body has already been read
+Request response:  undefined
+tax item:  PSCRN/25/1212
+response:  {
+  InvoiceNum: '0110600190000154475',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154475                              ',
+  date: {
+    date: '2025-06-03 12:57:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154475',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154475                              ',
+    date: {
+      date: '2025-06-03 12:57:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}
+
+
+tax item:  PSCRN/25/1213
+API Success Response:  {
+  InvoiceNum: '0110600190000154476',
+  QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154476                              ',
+  date: {
+    date: '2025-06-03 13:21:00.000000',
+    timezone_type: 3,
+    timezone: 'UTC'
+  }
+}
+LogManager: Attempted to write to uninitialized log file: successful_responses.log. Please call initializeLogFiles() first.
+Request response:  {
+  success: true,
+  response: {
+    InvoiceNum: '0110600190000154476',
+    QRcode: 'https://itax.kra.go.ke/KRA-Portal/invoiceChk.htm?actionCode=loadPage&invoiceNo=0110600190000154476                              ',
+    date: {
+      date: '2025-06-03 13:21:00.000000',
+      timezone_type: 3,
+      timezone: 'UTC'
+    }
+  }
+}

@@ -25,9 +25,12 @@
   },
   "dependencies": {
     "express": "^5.1.0",
-    "write-excel-file": "^2.3.2"
+    "jsonstream": "^1.0.3",
+    "write-excel-file": "^2.3.2",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
-    "@types/express": "^5.0.2"
+    "@types/express": "^5.0.2",
+    "@types/jsonstream": "^0.8.33"
   }
 }

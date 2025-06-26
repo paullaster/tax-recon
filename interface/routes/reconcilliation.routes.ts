@@ -12,8 +12,7 @@ import config from "../../infrastructure/config/index.ts";
 const reconcilliation = ReconcilliationRouter({ caseSensitive: true });
 
 const dataset = new DataCleaningService();
-await dataset.getDataFromPath('credit-memos-dataset.json');
-const datasetProvider = new DatasetsProvider(await dataset.prepareData() as TaxItemHeader[]);
+const datasetProvider = new DatasetsProvider(await dataset.prepareData('credit-memo-for-filtered-invoice.json') as TaxItemHeader[]);
 const reconcilliationProvider = new ReconcilliationProvider();
 const reconcilliationService = new ReconcilliationService(datasetProvider, reconcilliationProvider, config.itax);
 const reconcilliationController = new ReconcilliationController(reconcilliationService);

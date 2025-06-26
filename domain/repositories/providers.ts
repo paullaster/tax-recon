@@ -2,8 +2,8 @@ import type { ItaxConfig } from "../../infrastructure/config/itax.ts";
 import type { TaxItemHeader } from "../../types/types.ts";
 
 export interface DataService {
-    getDataFromPath(path: string): Promise<void>;
-    prepareData(): Promise<TaxItemHeader[] | undefined>
+    getDataFromPath(path: string): NodeJS.ReadableStream;
+    prepareData(filePath: string): Promise<TaxItemHeader[] | undefined>
 }
 
 export interface DatasetProvider {

@@ -42,7 +42,7 @@ export class ReconcilliationService implements IReconcilliationService {
                 return { valid: false };
             if (
                 !header.CompanyName ||
-                !header.ClientPINnum ||
+                // !header.ClientPINnum ||
                 !header.postingDate ||
                 !header.TraderSystemInvNum ||
                 !header.RelatedInvoiceNum
