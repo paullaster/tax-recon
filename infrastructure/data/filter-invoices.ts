@@ -11,8 +11,8 @@ import JSONStream from 'jsonstream'; // This imports the default export of jsons
 // Define file paths for input, CU numbers, and output.
 // Ensure these file names match the ones you've uploaded.
 const CU_NUMBERS_FILE = 'cu-numbers.ts';
-const INPUT_JSON_FILE = 'extracted-invoices-from-ej-file.json';
-const OUTPUT_JSON_FILE = 'filtered-invoices.json';
+const INPUT_JSON_FILE = 'may-extracted-invoices-fromej-file.json';
+const OUTPUT_JSON_FILE = 'may-filtered-invoices.json';
 
 // Define the structure of an Invoice for type safety (optional but good practice)
 interface Invoice {
@@ -85,7 +85,7 @@ async function getCuNumbers(): Promise<Set<string>> {
  */
 async function filterInvoices(): Promise<void> {
   // First, load the set of CU numbers that will be used for filtering.
-  const cuNumbersSet = await getCuNumbers();
+  const cuNumbersSet = new Set(Array.from((await getCuNumbers())).map((i) => i.replace("'", "")).map((i) => i.replace("'", "")));
   console.log(`Loaded ${cuNumbersSet.size} CU numbers for filtering.`);
 
   // Provide a warning if no CU numbers were loaded, as this might indicate an issue
@@ -122,6 +122,8 @@ async function filterInvoices(): Promise<void> {
     .on('data', (invoice: Invoice) => {
       // This 'data' event fires for each parsed invoice object.
       // Check if the CUNumber in the current invoice's header is present in our set.
+      // console.log("number fron ej invoice: ", invoice.header.CUNumber);
+      // console.log("cu numbers set: ", cuNumbersSet);
       if (cuNumbersSet.has(invoice.header.CUNumber)) {
         // If a match is found, prepare to write it to the output file.
         // If it's not the first invoice, add a comma and newline for proper JSON array formatting.

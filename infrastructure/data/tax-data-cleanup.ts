@@ -5,7 +5,7 @@ import type { TaxItemHeader } from '../../types/types.ts';
 import writeXlsxFile from 'write-excel-file/node';
 import type { DataService } from '../../domain/repositories/providers.ts';
 import type { Cell, Row, Schema } from 'write-excel-file';
-import { cuArray } from '../../cu-numbers.ts';
+import { cuArray } from '../../cu-numbers-0.ts';
 import { finished } from 'node:stream/promises';
 import JSONStream from 'jsonstream';
 export class DataCleaningService implements DataService {

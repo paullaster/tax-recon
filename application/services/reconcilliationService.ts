@@ -41,7 +41,7 @@ export class ReconcilliationService implements IReconcilliationService {
             if (safeTypeChecker(header) !== 'Object')
                 return { valid: false };
             if (
-                !header.CompanyName ||
+                // !header.CompanyName ||
                 // !header.ClientPINnum ||
                 !header.postingDate ||
                 !header.TraderSystemInvNum ||

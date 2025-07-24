@@ -48,10 +48,10 @@ function saveValuesToFile(values, outputPath) {
 }
 
 // --- Usage Example ---
-const excelFilePath = 'April 2025 Auto populated CRN by Kinetics (1).xlsx'; // Replace with your Excel file path
+const excelFilePath = 'AutopopulatedreportKRAMay2025.(2).xlsx'; // Replace with your Excel file path
 const targetSheetName = 'Sheet1';            // Replace with your sheet name
 const targetColumnName = 'CU INV';           // Replace with the exact name of your column
-const outputFilePath = 'extracted_cu_inv.json'; // <--- Specify your desired output file path here
+const outputFilePath = 'may_extracted_cu_inv.json'; // <--- Specify your desired output file path here
 
 // Extract values
 const extractedValues = extractColumnValues(excelFilePath, targetSheetName, targetColumnName);

@@ -1,0 +1,109 @@
+[
+  {
+    "CompanyName": "Platinum Cre dit Limited",
+    "ClientPINnum": "P051151872T",
+    "HeadQuarters": "NAIROBI",
+    "Address": "P.O BOX 73329 Post Code: International Life Ho use",
+    "PostalCodeAndCity": "NAIROBI",
+    "ExemptionNum": "",
+    "postingDate": "26/05/2025 09:48:34",
+    "TraderSystemInvNum": "PSCRN/25/2633",
+    "RelatedInvoiceNum": "0110600190000153399",
+    "lines": [
+      {
+        "NamePLU": "Replace rear RHS tyre",
+        "MeasureUnit": "",
+        "HSCode": "",
+        "HSName": "",
+        "DiscAddP": "",
+        "Quantity": 1,
+        "Price": 2401.2,
+        "OptionVATClass": "A",
+        "VATGrRate": 16
+      },
+      {
+        "NamePLU": "Two tyre repair puncture and noz",
+        "MeasureUnit": "",
+        "HSCode": "",
+        "HSName": "",
+        "DiscAddP": "",
+        "Quantity": 2,
+        "Price": 700,
+        "OptionVATClass": "A",
+        "VATGrRate": 16
+      }
+    ]
+  },
+  {
+    "CompanyName": "Momentum Cre dit Limited",
+    "ClientPINnum": "P051444407V",
+    "HeadQuarters": "NAIROBI",
+    "Address": "International Life Hous e, 9th",
+    "PostalCodeAndCity": "NAIROBI",
+    "ExemptionNum": "",
+    "postingDate": "26/05/2025 09:48:36",
+    "TraderSystemInvNum": "PSCRN/25/2634",
+    "RelatedInvoiceNum": "0110600190000153400",
+    "lines": [
+      {
+        "NamePLU": "FMB920-350424068392123",
+        "MeasureUnit": "",
+        "HSCode": "",
+        "HSName": "",
+        "DiscAddP": "",
+        "Quantity": 1,
+        "Price": 10440,
+        "OptionVATClass": "A",
+        "VATGrRate": 16
+      }
+    ]
+  },
+  {
+    "CompanyName": "Platinum Cre dit Limited",
+    "ClientPINnum": "P051151872T",
+    "HeadQuarters": "NAIROBI",
+    "Address": "P.O BOX 73329 Post Code: International Life Ho use",
+    "PostalCodeAndCity": "NAIROBI",
+    "ExemptionNum": "",
+    "postingDate": "26/05/2025 09:48:50",
+    "TraderSystemInvNum": "PSCRN/25/2635",
+    "RelatedInvoiceNum": "0110600190000153401",
+    "lines": [
+      {
+        "NamePLU": "Storage Fee",
+        "MeasureUnit": "",
+        "HSCode": "",
+        "HSName": "",
+        "DiscAddP": "",
+        "Quantity": 11,
+        "Price": 3850,
+        "OptionVATClass": "A",
+        "VATGrRate": 16
+      }
+    ]
+  },
+  {
+    "CompanyName": "Platinum Cre dit Limited",
+    "ClientPINnum": "P051151872T",
+    "HeadQuarters": "NAIROBI",
+    "Address": "P.O BOX 73329 Post Code: International Life Ho use",
+    "PostalCodeAndCity": "NAIROBI",
+    "ExemptionNum": "",
+    "postingDate": "31/05/2025 21:12:52",
+    "TraderSystemInvNum": "PSCRN/25/2636",
+    "RelatedInvoiceNum": "0110600190000154148",
+    "lines": [
+      {
+        "NamePLU": "Management Fee-KCT867K",
+        "MeasureUnit": "",
+        "HSCode": "",
+        "HSName": "",
+        "DiscAddP": "",
+        "Quantity": 1,
+        "Price": 500,
+        "OptionVATClass": "A",
+        "VATGrRate": 16
+      }
+    ]
+  }
+]
