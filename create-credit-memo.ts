@@ -7,8 +7,8 @@ import { finished } from 'node:stream/promises';
 import JSONStream from 'jsonstream'; // Import jsonstream for efficient streaming JSON parsing
 
 // Define file paths for input and output.
-const INPUT_JSON_FILE = 'may-filtered-invoices.json';
-const OUTPUT_JSON_FILE = 'may-credit-memo-from-filtered-may-invoice.json';
+const INPUT_JSON_FILE = 'filtered-invoices-from-ej-report-based-on-the-marked-pending-invoices-26-08-2025.json';
+const OUTPUT_JSON_FILE = 'generated-credit-memos-for-invoices-marked-pending-as-of-26th-08-2025.json';
 
 // Define the structure of an input Invoice line item
 interface InputInvoiceLine {
@@ -63,7 +63,7 @@ async function transformInvoicesToCreditMemos(): Promise<void> {
 
   // Initialize a counter for the new TraderSystemInvNum.
   // It starts at 1190 as per your requirement.
-  let creditMemoCounter = 2019;
+  let creditMemoCounter = 1000001;
   let processedInvoiceCount = 0; // Added for debugging
 
   // Create a readable stream for the input JSON file.

@@ -1,0 +1,26 @@
+[
+  {
+    "CompanyName": "Momentum Cre dit Limited",
+    "ClientPINnum": "P051444407V",
+    "HeadQuarters": "NAIROBI",
+    "Address": "International Life Hous e, 9th",
+    "PostalCodeAndCity": "NAIROBI",
+    "ExemptionNum": "",
+    "postingDate": "28/04/2025 19:11:18",
+    "TraderSystemInvNum": "PSCRN/25/100576",
+    "RelatedInvoiceNum": "0110600190000146447",
+    "lines": [
+      {
+        "NamePLU": "Commission KBW003E EEZY FIX",
+        "MeasureUnit": "",
+        "HSCode": "",
+        "HSName": "",
+        "DiscAddP": "",
+        "Quantity": 1,
+        "Price": 2167,
+        "OptionVATClass": "A",
+        "VATGrRate": 16
+      }
+    ]
+  }
+]

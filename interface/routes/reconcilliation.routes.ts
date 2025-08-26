@@ -12,7 +12,7 @@ import config from "../../infrastructure/config/index.ts";
 const reconcilliation = ReconcilliationRouter({ caseSensitive: true });
 
 const dataset = new DataCleaningService();
-const datasetProvider = new DatasetsProvider(await dataset.prepareData('may-credit-memo-from-filtered-may-invoice.json') as TaxItemHeader[]);
+const datasetProvider = new DatasetsProvider(await dataset.prepareData('generated-credit-memos-for-invoices-marked-pending-as-of-26th-08-2025.json') as TaxItemHeader[]);
 const reconcilliationProvider = new ReconcilliationProvider();
 const reconcilliationService = new ReconcilliationService(datasetProvider, reconcilliationProvider, config.itax);
 const reconcilliationController = new ReconcilliationController(reconcilliationService);

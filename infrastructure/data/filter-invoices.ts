@@ -10,9 +10,9 @@ import JSONStream from 'jsonstream'; // This imports the default export of jsons
 
 // Define file paths for input, CU numbers, and output.
 // Ensure these file names match the ones you've uploaded.
-const CU_NUMBERS_FILE = 'cu-numbers.ts';
-const INPUT_JSON_FILE = 'may-extracted-invoices-fromej-file.json';
-const OUTPUT_JSON_FILE = 'may-filtered-invoices.json';
+const CU_NUMBERS_FILE = 'cu-numbers-for-marked-transactions-as-of-26-08-2025.ts';
+const INPUT_JSON_FILE = 'invoices-from-ej-report-util-26-08-2025-extracted-for-scanning.json';
+const OUTPUT_JSON_FILE = 'filtered-invoices-from-ej-report-based-on-the-marked-pending-invoices-26-08-2025.json';
 
 // Define the structure of an Invoice for type safety (optional but good practice)
 interface Invoice {
